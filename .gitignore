@@ -1,0 +1,10 @@
+# Why: keep installed, generated and machine-local files out of git.
+node_modules/
+.expo/
+dist/
+web-build/
+ios/
+android/
+*.tsbuildinfo
+.DS_Store
+.env*

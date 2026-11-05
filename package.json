@@ -1,0 +1,31 @@
+{
+  "//": "Why: the Expo app of the free Appetite UI base. Pins are the ones of the Appetite UI Code App Starter (Expo SDK 58), copied by scripts/public/build.mjs; expo-haptics is used by the theme core, react-native-svg by the icons and Checkbox, expo-font loads the Inter faces.",
+  "name": "appetite-ui-base",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.ts",
+  "engines": {
+    "node": "^22.13.0 || ^24.3.0 || >= 26.0.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "expo": "~58.0.21",
+    "expo-font": "~58.0.11",
+    "expo-haptics": "~58.0.7",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.11.1",
+    "react-native-svg": "15.16.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
+  }
+}

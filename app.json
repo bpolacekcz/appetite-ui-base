@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Appetite UI base",
+    "slug": "appetite-ui-base",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "//": "Why: Expo app config of the free Appetite UI base. userInterfaceStyle automatic so the system dark mode reaches the app. No numbers."
+    }
+  }
+}
